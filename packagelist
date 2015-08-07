@@ -1,0 +1,75 @@
+# basics packages for running the system and work
+xorg-server
+xorg-server-utils
+xorg-xinit
+xf86-input-synaptics
+xf86-video-ati
+xf86-video-intel
+xf86-video-vesa
+xorg-fonts-type1
+ttf-dejavu
+artwiz-fonts
+font-bh-ttf
+font-bitstream-speedo
+sfonts
+sdl_ttf
+ttf-bitstream-vera
+ttf-cheapskate
+ttf-liberation
+ttf-freefont
+ttf-arphic-uming
+ttf-baekmuk
+slim
+emacs
+htop
+tree
+git
+openssh
+python
+python-pip
+yaourt
+
+# additionnal packages for work too
+eom
+firefox
+flashplugin #yaourt
+gimp
+vlc
+
+# openbox desktop set-up (can ben used with xmonad)
+dmenu
+i3lock
+lxterminal
+tint2
+network-manager-applet
+networkmanager
+volumeicon
+nitrogen
+openbox
+xbindkeys
+
+# additionnal packages for openbox set-up
+openbox-themes
+obconf
+compton #yaourt
+playerctl #yaourt
+xdotool
+blueberry
+
+# xmonad and other lightweight tools
+xmonad
+xterm
+vimb-git #yaourt
+mpv
+mps-youtube #pip
+
+# audio and bluetooth additionnal features
+alsa-lib
+alsa-plugins
+alsa-utils
+bluez
+bluez-libs
+bluez-utils
+pulseaudio
+pulseaudio-alsa
+pulseaudio-bluetooth
