@@ -1,3 +1,29 @@
+#
+# Writen by mas_b (dihamon on github)
+#
+# This is not an exhaustive list about a very good base
+# of packages to install on an arch linux distribution.
+# This document will also give some details about
+# package managing with pacman, yaourt or pip.
+#
+# Pacman is the main and default arch linux package
+# manager and allows you to manage all the officially
+# supported packages.
+# Yaourt is a pacman wrapper that allows you things
+# like managing packages from the AUR repository.
+# Pip is a standalone package manager focused on python
+# v2 and 3 libraries and softs.
+#
+# Mandatory packages (for system and X server are marked
+# with this symbol : #*
+#
+# You can comment packages you don't need with this
+# symbol : #
+#
+# Here I'm gonna suggest 3 desktop interface/windows
+# manager : cinnamon, openbox and wmonad
+#
+
 # basics packages for running the system and work
 xorg-server
 xorg-server-utils
@@ -36,7 +62,15 @@ flashplugin #yaourt
 gimp
 vlc
 
+# cinnamon desktop set-up
+#  This is a full graphical and user friendly
+#  desktop interface.
+cinnamon
+
 # openbox desktop set-up (can ben used with xmonad)
+#  This is a lightweight desktop highly
+#  customizable but provided with the minimum
+#  configuration.
 dmenu
 i3lock
 lxterminal
@@ -57,6 +91,10 @@ xdotool
 blueberry
 
 # xmonad and other lightweight tools
+#  Xmonad is an hardcore lightweigh distraction
+#  free tiling window manager. You got to use it
+#  almost keybord shortcuts only ]-) and only the
+#  true knews...
 xmonad
 xterm
 vimb-git #yaourt
@@ -64,6 +102,7 @@ mpv
 mps-youtube #pip
 
 # audio and bluetooth additionnal features
+pavucontrol
 alsa-lib
 alsa-plugins
 alsa-utils
