@@ -19,36 +19,37 @@
 #
 # You can comment packages you don't need with this
 # symbol : #
+# When you've done just save it and run : dump packagelist
 #
 # Here I'm gonna suggest 3 desktop interface/windows
-# manager : cinnamon, openbox and wmonad
+# manager : cinnamon, openbox and wmonad.
 #
 
 # basics packages for running the system and work
-xorg-server
-xorg-server-utils
-xorg-xinit
-xf86-input-synaptics
-xf86-video-ati
-xf86-video-intel
-xf86-video-vesa
-xorg-fonts-type1
-ttf-dejavu
-artwiz-fonts
-font-bh-ttf
-font-bitstream-speedo
-sfonts
-sdl_ttf
-ttf-bitstream-vera
-ttf-cheapskate
-ttf-liberation
-ttf-freefont
-ttf-arphic-uming
-ttf-baekmuk
-slim
-emacs
-htop
-tree
+xorg-server #*
+xorg-server-utils #*
+xorg-xinit #*
+xf86-input-synaptics		# touchpad opensource driver
+xf86-video-ati			# radeon graphics opensource driver
+xf86-video-intel		# intel graphic chipset opensource driver
+xf86-video-vesa #*		# universal/fallback opensource driver
+xorg-fonts-type1 #*
+ttf-dejavu #*
+artwiz-fonts #*
+font-bh-ttf #*
+font-bitstream-speedo #*
+sfonts #*
+sdl_ttf #*
+ttf-bitstream-ver #*a
+ttf-cheapskate #*
+ttf-liberation #*
+ttf-freefont #*
+ttf-arphic-uming #*
+ttf-baekmuk #*
+slim #*				# lightweight display manager (for login into sessions - use F1 for choosing)
+emacs				# command line text editor by GNU :)
+htop				# command line task manager
+tree				# you will use it as often as ls
 git
 openssh
 python
@@ -56,50 +57,52 @@ python-pip
 yaourt
 
 # additionnal packages for work too
-eom
+eom	      	       	   	# image wiewer
 firefox
-flashplugin #yaourt
+flashplugin #yaourt		# only for firefox and forks
 gimp
-vlc
+vlc				# there is several hidden features with vlc (nvlc, cvlc, etc...) so read the man
 
 # cinnamon desktop set-up
 #  This is a full graphical and user friendly
 #  desktop interface.
 cinnamon
 
-# openbox desktop set-up (can ben used with xmonad)
+# openbox desktop set-up (most of them can be used with xmonad)
 #  This is a lightweight desktop highly
 #  customizable but provided with the minimum
 #  configuration.
-dmenu
-i3lock
-lxterminal
-tint2
-network-manager-applet
+dmenu				# very very very usefull but read the man :)
+i3lock				# lighweight screen locker
+lxterminal			# simple x termianl emulator (you can choose the terminal you want but you need one)
+terminator			# avanced terminal emulator
+tint2	   			# task manager (taskbar)
+network-manager-applet		# taskbar plugin for your network (command line tool is nmcli)
 networkmanager
-volumeicon
-nitrogen
+volumeicon			# taskbar plugin for your sound
+nitrogen			# wallpaper manager
 openbox
-xbindkeys
+xbindkeys			# very very very usefull tool for keybinding (use it instead of configuring each desktop one by one and use it on all them)
 
 # additionnal packages for openbox set-up
 openbox-themes
-obconf
-compton #yaourt
-playerctl #yaourt
-xdotool
-blueberry
+obconf				# window/gtk theming configuration tool
+compton #yaourt			# window compositor (for shadows, expose and transparency)
+playerctl #yaourt		# command line and standalone tool for players control
+xdotool	  			# tiling tool for non-tiling lightweight window manager as openbox
+blueberry			# taskbar plugin fot your bluetooth stories...
 
 # xmonad and other lightweight tools
 #  Xmonad is an hardcore lightweigh distraction
 #  free tiling window manager. You got to use it
 #  almost keybord shortcuts only ]-) and only the
 #  true knews...
-xmonad
-xterm
-vimb-git #yaourt
-mpv
-mps-youtube #pip
+#  You must abuse of dmenu with this desktop.
+xmonad				# please visit http://www.howtogeek.com/114728/how-to-use-xmonad-a-tiling-window-manager-for-linux/
+xterm  				# lightweight basic terminal emulator
+vimb-git #yaourt		# lightweight web browser (cookies and javascript support)
+mpv	 			# lightweight all media player
+mps-youtube #pip		# youtube in command line ]-)
 
 # audio and bluetooth additionnal features
 pavucontrol
