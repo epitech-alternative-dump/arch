@@ -1,0 +1,4 @@
+xrandr --output DP2 --auto --left-of eDP1
+nitrogen --restore
+xbindkeys
+exec xmonad

@@ -1,0 +1,7 @@
+tint2 &
+nm-applet &
+volumeicon &
+xrandr --output DP2 --auto --left-of eDP1
+nitrogen --restore
+xbindkeys
+exec $1
