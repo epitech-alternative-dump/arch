@@ -1,0 +1,61 @@
+# packages for a functional Xorg Server
+xorg-server
+xorg-server-utils
+xorg-xinit
+
+# additionnal drivers for Xorg
+xf86-input-synaptics
+xf86-video-ati
+xf86-video-intel
+xf86-video-vesa
+
+# additionnal font support for Xorg
+xorg-fonts-type1
+ttf-dejavu
+artwiz-fonts
+font-bh-ttf
+font-bitstream-speedo
+sfonts
+sdl_ttf
+ttf-bitstream-vera
+ttf-cheapskate
+ttf-liberation
+ttf-freefont
+ttf-arphic-uming
+ttf-baekmuk
+
+# display manager (sessions and desktop switching manager)
+slim
+
+# alternative command line text editor by GNU
+emacs
+
+# command line task manager
+htop
+
+# ls equivalent with arborescence
+tree
+
+# additionnal developper/network tools
+net-tools
+openssh
+python
+python-pip
+
+# minimal tilling window manager
+xmonad
+
+# basic terminal emulator
+xterm
+
+# package for launching anything
+dmenu
+
+# standalone universal keybinding manager (works with Xorg)
+xbindkeys
+
+# package that provides the nmcli command line network manager
+networkmanager
+
+# lightweight screen locker
+i3lock

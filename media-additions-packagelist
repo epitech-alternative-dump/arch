@@ -1,0 +1,15 @@
+# avanced audio controler (use the audio panel provided by gnome-control-center for audio bluetooth troubleshooting)
+pavucontrol
+
+# audio dependancies
+alsa-lib
+alsa-plugins
+alsa-utils
+pulseaudio
+pulseaudio-alsa
+
+# bluetooth dependancies
+bluez
+bluez-libs
+bluez-utils
+pulseaudio-bluetooth

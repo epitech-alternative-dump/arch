@@ -1,0 +1,58 @@
+openbox
+
+# highly customizable task manager (taskbar)
+tint2
+
+# walpaper manager
+nitrogen
+
+
+
+# xterm wrapper with GUI options support
+lxterminal
+
+
+
+# network manager implementation for taskbar
+network-manager-applet
+
+# audio control implementation for taskbar
+alsa-tray
+
+# bluetooth manager that provide an applet for taskbar
+blueberry
+
+# standalone command line media players controler
+playerctl
+
+# GUI simple themes managers for openbox
+obconf
+lxappearance
+
+# window themes/gtk themes/cursor themes/icon themes
+openbox-themes
+menda-themes-dark
+menda-themes
+mediterraneannight-theme
+vertex-themes
+xcursor-menda
+menda-circle-icon-theme
+numix-icon-theme-git
+faenza-icon-theme
+tango-icon-theme
+azenis-icon-theme
+azenis-green-icon-theme
+
+# tilling basic implementation for Xorg
+xdotool
+
+# window compositor (for shadows, expose and transparency)
+compton
+
+
+
+# lightweight media player
+mpv
+
+# command line youtube player/downloader
+mps-youtube

@@ -1,0 +1,13 @@
+xrandr·--output·DP2·--auto·--left-of·eDP1·&
+pulseaudio·--start·&
+xbindkeys·&
+nitrogen·--restore
+if·[·"$1"·==·"xmonad"·]
+then
+····exec·xmonad
+else
+····alsa-tray·&
+····nm-applet·&
+····compton·-b
+····exec·$1
+fi

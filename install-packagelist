@@ -1,0 +1,12 @@
+# package group with minimal dependencies for boot an linux system
+base
+
+# package group with minimal develloper tools
+bsae-devel
+
+# packages for a stable and hightly configurable boot loader
+grub
+efibootmgr
+
+# package for getting configuration files from a repository
+git

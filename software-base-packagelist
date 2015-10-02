@@ -1,0 +1,17 @@
+# avanced terminal emulator with tilling support
+terminator
+
+# simple image viewer
+eom
+
+# web browser
+firefox
+
+# flashplugin only for firefox and forks
+flashplugin
+
+# image editor
+gimp
+
+# media player with hidden features (nvlc, cvlc, etc...)
+vlc

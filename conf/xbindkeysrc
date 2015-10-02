@@ -60,14 +60,38 @@ Mod4 + a
 "geany"
 Mod4 + g
 
+"lxterminal --geometry=119x66 -e env TERM=xterm-256color emacs -nw"
+Mod4 + e
+
 "i3lock -i ~/42bin/lock.png"
 Mod4 + l
 
-"xdotool getactivewindow windowsize 50% 98% windowmove 0 0"
+"blueberry-tray"
+Mod4 + b
+
+"gnome-control-center"
+Mod4 + c
+
+"xdotool getactivewindow windowsize 50% 95% windowmove 0 0"
 Mod4 + Left
 
-"xdotool getactivewindow windowsize 50% 98% windowmove 960 0"
+"xdotool getactivewindow windowsize 50% 95% windowmove 960 0"
 Mod4 + Right
+
+"amixer -q sset Master 5%+"
+XF86AudioRaiseVolume
+
+"amixer -q sset Master 5%-"
+XF86AudioLowerVolume
+
+"amixer -q sset Master toggle"
+XF86AudioMute
+
+"xbacklight -inc 20"
+XF86MonBrightnessUp
+
+"xbacklight -dec 20"
+XF86MonBrightnessDown
 
 # set directly keycode (here control + f with my keyboard)
 #"xterm"
