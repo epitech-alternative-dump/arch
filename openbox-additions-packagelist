@@ -36,11 +36,10 @@ menda-themes
 mediterraneannight-theme
 vertex-themes
 xcursor-menda-git
-menda-circle-icon-theme
+menda-circle-icon-theme-git
 numix-icon-theme-git
 faenza-icon-theme
 tango-icon-theme
-azenis-icon-theme
 azenis-green-icon-theme
 
 # tilling basic implementation for Xorg
