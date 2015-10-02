@@ -50,7 +50,6 @@ slim #*				# lightweight display manager (for login into sessions - use F1 for c
 emacs				# command line text editor by GNU :)
 htop				# command line task manager
 tree				# you will use it as often as ls
-git
 openssh
 python
 python-pip
@@ -79,13 +78,25 @@ terminator			# avanced terminal emulator
 tint2	   			# task manager (taskbar)
 network-manager-applet		# taskbar plugin for your network (command line tool is nmcli)
 networkmanager
-volumeicon			# taskbar plugin for your sound
+alsa-tray			# taskbar plugin for your sound
 nitrogen			# wallpaper manager
 openbox
 xbindkeys			# very very very usefull tool for keybinding (use it instead of configuring each desktop one by one and use it on all them)
 
 # additionnal packages for openbox set-up
 openbox-themes
+lxappearance
+menda-themes-dark
+menda-themes
+mediterraneannight-theme
+vertex-themes
+xcursor-menda
+menda-circle-icon-theme
+numix-icon-theme-git
+faenza-icon-theme
+tango-icon-theme
+azenis-icon-theme
+azenis-green-icon-theme
 obconf				# window/gtk theming configuration tool
 compton #yaourt			# window compositor (for shadows, expose and transparency)
 playerctl #yaourt		# command line and standalone tool for players control
