@@ -43,7 +43,7 @@ python
 python-pip
 
 # minimal tilling window manager
-xmonad
+#xmonad
 
 # basic terminal emulator
 xterm
