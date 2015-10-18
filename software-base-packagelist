@@ -15,3 +15,6 @@ gimp
 
 # media player with hidden features (nvlc, cvlc, etc...)
 vlc
+
+# partitions manager
+gparted

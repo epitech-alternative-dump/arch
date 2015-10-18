@@ -48,6 +48,9 @@ python-pip
 # basic terminal emulator
 xterm
 
+# basic lock screen
+i3lock
+
 # package for launching anything
 dmenu
 
