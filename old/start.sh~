@@ -1,9 +1,0 @@
-#!/bin/bash
-
-# if [ ! -e /arch/install_command_list.sh ]
-# then
-while read line
-do
-    $line
-done < /arch/install_command_list.sh
-# fi
