@@ -74,9 +74,9 @@ function deps ()
     then
 	cp -r /arch/conf/openbox /home/${USER}/.config &> .log || return 1
 	cp -r /arch/conf/lxterminal /home/${USER}/.config &> .log || return 1
-	cp -r /arch/conf/gtk-3.0 /home/${USER}/.config &> .log || return 1
+	cp -r /arch/conf/gtk-* /home/${USER}/.config &> .log || return 1
 	cp -r /arch/conf/tint2 /home/${USER}/.config &> .log || return 1
-	rm /usr/share/xsession/openbox-kde.desktop &> .log || return 1
+	rm /usr/share/xsession/openbox-kde.desktop &> .log
     fi
     return 0
 }
