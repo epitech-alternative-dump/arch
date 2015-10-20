@@ -41,6 +41,8 @@ net-tools
 openssh
 python
 python-pip
+dosfstools
+wget
 
 # minimal tilling window manager
 #xmonad
