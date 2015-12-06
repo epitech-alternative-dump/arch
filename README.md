@@ -43,6 +43,10 @@ and with details:
 and with details:
 > sudo pacman -Qs *query* **or** yaourt -Qs *query*
 
+* install a new package
+
+> sudo pacman -S *package* **or** yaourt -S *package*
+
 * remove a package
 
 > sudo pacman -R *package* **or** yaourt -R *package*
